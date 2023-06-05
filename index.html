@@ -1,0 +1,466 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My portfolio</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" link
+        href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="site-main-wrapper">
+        <button class="hamberger">
+            <img src="./images/hamburge.jpg" alt="" width="30" height="30">
+        </button>
+        <div class="mobile-nav ">
+            <button class="times">
+                <img src="./images/bulb.png" alt="" height="40" width="40">
+            </button>
+            <ul>
+                <li><a href="#Home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#Education">Education</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#certificates">Certificates</a></li>
+            </ul>
+        </div>
+        <script>
+            alert("For better view in mobile,open in Desktop view.");
+            var url = 'https://wati-integration-service.clare.ai/ShopifyWidget/shopifyWidget.js?44646';
+            var s = document.createElement('script');
+            s.type = 'text/javascript';
+            s.async = true;
+            s.src = url;
+            var options = {
+                "enabled": true,
+                "chatButtonSetting": {
+                    "backgroundColor": "#4dc247",
+                    "ctaText": "Whatsapp",
+                    "borderRadius": "25",
+                    "marginLeft": "0",
+                    "marginBottom": "50",
+                    "marginRight": "50",
+                    "position": "right"
+                },
+                "brandSetting": {
+                    "brandName": "WATI",
+                    "brandSubTitle": "Typically replies within a day",
+                    "brandImg": "https://cdn.clare.ai/wati/images/WATI_logo_square_2.png",
+                    "welcomeText": "Hi there!\nIt's Piyush...!\nHow can I help you?",
+                    "messageText": "Hello, I have a question about {{page_link}}",
+                    "backgroundColor": "#0a5f54",
+                    "ctaText": "Start Chat",
+                    "borderRadius": "25",
+                    "autoShow": false,
+                    "phoneNumber": "918340183196"
+                }
+            };
+            s.onload = function () {
+                CreateWhatsappChatWidget(options);
+            };
+            var x = document.getElementsByTagName('script')[0];
+            x.parentNode.insertBefore(s, x);
+        </script>
+        <header>
+            <div class="container">
+                <nav id="main-nav" class="flex items-center justify-between">
+                    <div class="left flex items-center">
+                        <div class="branding">
+                            <img src="./images/logo piyush.jpg" alt="" width="80" height="70">
+
+                        </div>
+                        <div>
+                            <a href="#">Home</a>
+                            <a href="#about">About</a>
+                            <a href="#Education">Education</a>
+                            <a href="#Projects">Projects</a>
+                            <a href="#languages">Languages</a>
+                            <a href="#certificates">Certificates</a>
+                        </div>
+                    </div>
+                    <div class="right">
+                        <button class="btn btn-primary">
+                            <a href="#Contacts">
+                                <h6>Contact</h6>
+                            </a>
+                        </button>
+
+
+                    </div>
+                </nav>
+                <div class="hero flex items-center justify-between">
+                    <div class="left flex-1 flex justify-center">
+                        <img src="./images/WhatsApp Image 2022-09-15 at 7.10.56 PM.jpeg" alt="" width="300"
+                            height="400">
+                    </div>
+                    <div class="right flex-1">
+                        <h3>PIYUSH KUMAR</h3>
+                        <h1>I am a Computer Science <span>Engineer.</span></h1>
+                        <p>
+                            Started my programing journey by learning "C" then I Moved to learn the concepts of "Object
+                            Oriented
+                            Programming" with "Java. After these all I have learnt "Python" and fell in love with
+                            Artificial Intelligence
+                            and Machine Learning. I am studying Data Science as well. Also enhancing my problem solving
+                            skills
+                            by learning the Data Structure and Algorithms.
+                        </p>
+                        <div>
+                            <button class="btn btn-primary">
+                                <a href="./images/Resume_page-0001.jpg" alt="">Download CV</a>
+                            </button>
+
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section id="about" class="about">
+            <div class="container flex items-center about-inner-wrap">
+                <div class="">
+                    <img class="about-me-image" src="./images/piyush pic.jpeg" alt="" width="400" height="500">
+                </div>
+                <div class="flex-1 right">
+                    <h1>About <span>Me</span></h1>
+                    <h3>Hello you !!</h3>
+                    <p>
+                        My name is <b>Piyush Kumar</b>. I am a Btech student at GIET University, Gunupur. I am a native
+                        of <b>Sitamarhi, Bihar</b>(birth place of Goddess Sita).
+                    </p>
+                    <p>
+                        My <b>hobbies </b> is <b>travelling</b>cause I believe traveling gives you a new perspective to
+                        everything. You get to know a lot
+                        about the different cultures, the cuisines, their history, the language and the small unique
+                        things every place has to offer.
+                    </p>
+                    <p>
+                        If I talk about my <b>technical skills</b>, I know C and Java languages and also I have
+                        knowledge of Sql. I have interest in photoshop also and I have learned some concepts of
+                        Web Development also.
+                    </p>
+                    <div class="social">
+                        <a href="https://www.facebook.com/profile.php?id=100005490317503"><img
+                                src="./images/Facebook-logo.png" alt="" width="30" height="20"></a>
+                        <a href="https://www.instagram.com/ig__piyush20/"><img src="./images/insta.jpg" alt=""
+                                width="30" height="20"></a>
+                        <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/"><img src="./images/link.png"
+                                alt="" width="30" height="20"></a>
+                        <a href="https://twitter.com/PiyushS02032608"><img src="./images/Twitter.png" alt="" width="30"
+                                height="20"></a>
+                        <a href="https://mycredible.info/#2387186264"><img src="./images/cred logo.png" alt=""
+                                width="30" height="20"></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Education" class="Education">
+            <div class="container">
+                <h1 class="section-heading">Edu<span>cation</span></h1>
+                <p><span>I mere imparting of information is not education.</span></p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/hellens school.jpg" alt="" width="130" height="130">
+                        <h2>Hellens School, Sitamarhi</h2>
+                        <p>I have did my matriculation from here and scored 68%.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/Vivekanada_Vidya_Mandir.jpg" alt="" width="130" height="130">
+                        <h2>Vivekanada Vidya Mandir</h2>
+                        <p>I have completed my intermediate from here, and scored 88%.
+                        </p>
+                    </div>
+                    <div class="card">
+                        <img src="./images/GIET.jpg" alt="" width="130" height="130">
+                        <h2>GIET University, Gunupur</h2>
+                        <p>Right now, I am a 5th sem. student in this college.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="Projects" class="projects">
+            <h1>My Works</h1>
+            <p>Well..! my work is done here.</p>
+            <button class="btn btn-primary">
+                <a href="./images/Resume_page-0001.jpg" alt="">Download CV</a>
+            </button>
+
+        </section>
+        <section class="work">
+            <div class="container">
+                <h1 class="section-heading"><span>Projects & </span>Internship</h1>
+                <p>
+                    Here are some of my projects and internship which I have done in last 1 year.
+                </p>
+                <div class="slider">
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/College-Management-System-">CMS</a>
+                        </div>
+                        <img src="./images/CMS.jpg" alt="" width="100" height="100">
+                        <h1>CMS</h1>
+                        <p>College Management System deals with all kind of student details, academic related reports,
+                            college
+                            details, course details, curriculum, batch details and other resource related details too.
+                            It tracks all the
+                            details of a student from the day one to the end of his course which can be used for all
+                            reporting
+                            purpose. This project is made in HTML, CSS, Javascript and database as Sql.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Company-Information-System">CIS</a>
+                        </div>
+                        <img src="./images/employee.jpg" alt="" width="100" height="100">
+                        <h1>CIS</h1>
+                        <p>Company Information System is distributed command line interface, developed to maintain the
+                            details of employees
+                            working in any organisation. The CIS has been developed to override the problems prevailing
+                            in the practicing manual system.
+                            It maintains the information about the personal and official details of the employees.
+                            This project is made in Java. </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Sales-Representation-">sales dashboard</a>
+                        </div>
+                        <img src="./images/sales.jpg" alt="" width="100" height="100">
+                        <h1>Sales Dashboard</h1>
+                        <p>This Rx Sales measures and monitors the performance of a UK pharmaceutical sales
+                            representative in areas
+                            where there are dispensing doctors.
+                            A sales representative or sales manager would use this application to see how they were
+                            performing with
+                            respect to their peers. This project is made during my internship with Lagozon Edutech
+                            Company.
+                            This project is made by using powerBI.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="#">will upload soon</a>
+                        </div>
+                        <img src="./images/Rainfall prediction.jpg" alt="" width="100" height="100">
+                        <h1>RPS</h1>
+                        <p>Rainfall Prediction System using ml predicts the rainfall in thi given area for its current
+                            or next 2
+                            upcoming dates. It will give you the whole details about the weather & temperature. It will
+                            be very
+                            benificial for the agriculture industry as well as the farmers. It is made in Pyhton
+                            language.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a href="https://github.com/Piyush-codr/Gym-Master-System-">Gym Master System</a>
+                        </div>
+                        <img src="./images/gym.webp" alt="" width="100" height="100">
+                        <h1>Gym site</h1>
+                        <p>.Sometimes it creates a trouble when members lost their receipts.The other problem that can
+                            be faced
+                            by a gym owner is that if he/she wants to inform any message related to working or non
+                            working
+                            days of gym, manually sending message become difficult . If there is online application
+                            available
+                            these problems can be solved. Here, I am using database as MongoDB and all front-end in
+                            HTML, CSS
+                            & Javascript.</p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                    <div class="slide">
+                        <div class="overlay">
+                            <span>link:-</span>
+                            <a
+                                href="https://github.com/Piyush-codr/Student-Score-Prediction-project-Sparks-Foundation-">SSP</a>
+                        </div>
+                        <img src="./images/SSP.png" alt="" width="100" height="100">
+                        <h1>SSP</h1>
+                        <p>Students Score Prediction using Ml predicts the score of the students in his/her
+                            last examination which he/she has given. Also it will tell you that you are pass
+                            or not. This whole project is made in Python.
+                        </p>
+                        <span>-Piyush Kumar</span>
+                    </div>
+                </div>
+                <div class="slider-dots">
+
+                </div>
+            </div>
+        </section>
+        <section id="languages" class="languages">
+            <div class="container">
+                <h1 class="section-heading"><span>Languages,</span></h1>
+                <p>These are the languages, I have studied and I know..!
+                </p>
+
+                <div class="card-wrapper">
+                    <div class="card">
+                        <img src="./images/C2.png" alt="" width="200" height="200">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/java.png" alt="" width="200" height="200">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/sql2.png" alt="" width="200" height="200">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/html b.png" alt="" width="200" height="200">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/css.png" alt="" width="200" height="200">
+
+                    </div>
+                    <div class="card">
+                        <img src="./images/js_logo.png" alt="" width="200" height="200">
+
+                    </div>
+
+                </div>
+
+            </div>
+        </section>
+        <section id="certificates" class="certificates">
+            <div class="container">
+                <h1 class="section-heading"><span>My </span>Certificates</h1>
+                <p>Die with certificates, not with dreams
+                </p>
+                <div class="card-wrapper">
+             
+                            <div class="card">
+                                <div class="img-wrapper">
+                                    <img src="./images/java hacker-rank.jpeg" alt="" width="150" height="150">
+                                </div>
+                                <div class="card-content">
+                                    <button class="btn btn-primary">
+                                        <a href="./images/java hacker-rank.jpeg" alt="">Java Basic Hacker Rank</a>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img-wrapper">
+                                    <img src="./images/lagozon.jpeg" alt="" width="150" height="150">
+                                </div>
+                                <div class="card-content">
+                                    <button class="btn btn-primary">
+                                        <a href="./images/lagozon.jpeg" alt="">Internship in Lagozon Edutech pvt. Ltd.</a>
+                                    </a>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="card">
+                                <div class="img-wrapper">
+                                    <img src="./images/spoken-C.jpeg" alt="" width="150" height="150">
+                                </div>
+                                <div class="card-content">
+                                    <button class="btn btn-primary">
+                                        <a href="./images/spoken-C.jpeg" alt="">Spoken-tutorial IIT Bombay in C
+                                            language</a>
+                                    </button>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="img-wrapper">
+                                    <img src="./images/spoken-php.jpeg" alt="" width="150" height="150">
+                                </div>
+                                <div class="card-content">
+                                    <button class="btn btn-primary">
+                                        <a href="./images/spoken-php.jpeg" alt="">Spoken-tutorial IIT Bombay in PHP &
+                                            Sql</a>
+                                    </button>
+                                </div>
+                                <div class="card">
+                                    <div class="img-wrapper">
+                                        <img src="./images/web development.jpeg" alt="" width="150" height="150">
+                                    </div>
+                                    <div class="card-content">
+                                        <button class="btn btn-primary">
+                                            <a href="./images/web development.jpeg" alt="">Web Development</a>
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+        </section>
+        <section id="Contacts" class="contact">
+            <div class="container">
+                <h1 class="section-heading"><span>Contact </span>Me</h1>
+                <p>Here is the solution, How to reach me..??</p>
+                <div class="card-wrapper">
+                    <div class="card">
+                        <script src="https://apps.elfsight.com/p/platform.js" defer></script>
+                        <div class="elfsight-app-5a371872-ee23-4ab5-a2dd-22c54c3509cf"></div>
+                    </div>
+                    <div class="card">
+                        <img src="./images/mail.png" alt="" width="60" height="60" >
+                    <a href = "mailto: piyushsinghstm@gmail.com">Mail me Here</a>
+                        
+                    </div>
+                    <div class="card">
+                        <img src="./images/link.png" alt="" width="60" height="50">
+                        <h1> Linked In:-</h1>
+                        <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/">Piyush Kumar</a>
+                    </div>
+                </div>
+                <form action="">
+                    <div class="input-wrap">
+                        <input type="text" placeholder="Your Name*">
+                        <input type="email" placeholder="Your Email*">
+
+                    </div>
+                    <div class="input-wrap-2">
+                        <input type="text" placeholder="Subject...">
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Your Message...."></textarea>
+
+                    </div>
+                    <div class="btn-wrapper">
+                        <button class="btn btn-primary">Send Message</button>
+                    </div>
+
+                </form>
+            </div>
+        </section>
+        <footer>
+            <img class="footer-logo" src="./images/logo piyush.jpg" alt="" height="80" width="90">
+            <div class="foorter-socials">
+                <a href="https://www.facebook.com/profile.php?id=100005490317503"><img src="./images/Facebook-logo.png"
+                        alt="" width="30" height="30"></a>
+                <a href="https://www.linkedin.com/in/piyush-kumar-7ab1951b8/"><img src="./images/link.png" alt=""
+                        height="30" width="30"></a>
+                <a href="https://www.instagram.com/ig__piyush20/"><img src="./images/insta.jpg" alt="" height="30"
+                        width="30"></a>
+                <a href="https://twitter.com/PiyushS02032608"><img src="./images/Twitter.png" alt="" height="30"
+                        width="30"></a>
+                <a href="https://github.com/Piyush-codr"><img src="./images/github.png" alt="" height="30"
+                        width="30"></a>
+            </div>
+            <div class="copyright">
+                Copyright 2022 @ Name PSD Template. All Right Reserved.
+            </div>
+        </footer>
+    </div>
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>
